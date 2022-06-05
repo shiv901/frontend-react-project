@@ -25,7 +25,7 @@ const Timer = ({onExpired}) => {
 
   return (
     <div className='lead-text text-center'>
-      Please fill this form with 5 minutes: <h2>{min +':'+sec}</h2>
+      Please fill this form within 5 minutes: <h2>{min +':'+sec}</h2>
     </div>
   );
 }
